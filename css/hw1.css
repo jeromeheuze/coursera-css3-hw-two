@@ -3,7 +3,7 @@ html, body {
   margin:0;
   background: #fff;
   color: #000;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1;
 }
 body {
@@ -31,11 +31,16 @@ nav {
 }
 nav a:link, nav a:visited {
   background-color: rgba(255,255,255,0.3);
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 4.2rem;
   text-decoration: none;
   font-size: 1rem;
+  line-height: 2.2rem;
   border-radius: 3px;
   transition: 500ms;
+  color: #000;
+  margin-right: 2rem;
+  word-break: keep-all;
+  white-space: nowrap;
 }
 nav a:hover, nav a:active {
   background-color: rgba(255,255,255,1);
@@ -43,11 +48,21 @@ nav a:hover, nav a:active {
 nav a.active {
   background-color: rgba(255,255,255,1);
 }
-
+main {
+  width: 100%;
+  overflow: hidden;  
+}
 aside.left {
   float: left;
-  width: 30%;
+  width: 24%;
+  height: auto;
   display: inline-block;
+  background: #778e4e;
+  padding: 3%;
+}
+aside.left img {
+  border: 2px solid #000;
+  margin: 1rem 0;  
 }
 section.right {
   float: right;
