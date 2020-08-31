@@ -1,11 +1,29 @@
 html, body {
-  padding: 1.5rem 0 0;
+  padding:0;
   margin:0;
   background: #fff;
   color: #000;
   font-size: 1.2rem;
   line-height: 1rem;
 }
+body {
+  padding: 1.5rem;
+}
 img {
- max-width: 100%; 
+   max-width: 100%; 
+}
+header {
+  text-align: center;  
+  min-height: 200px;
+  background: url(/coursera-css3-hw-two/images/flywheel.jpg) top center no-repeat;
+  background-size: cover;
+}
+aside.left {
+  float: left;
+  width: 30%;
+  display: inline-block;
+}
+section.right {
+  float: right;
+  width: 68%;
 }
