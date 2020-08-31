@@ -36,7 +36,6 @@ nav a:link, nav a:visited {
   font-size: 1rem;
   line-height: 2.2rem;
   border-radius: 3px;
-  transition: 500ms;
   color: #000;
   margin-right: 2rem;
   word-break: keep-all;
@@ -44,6 +43,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover, nav a:active {
   background-color: rgba(255,255,255,1);
+  transition: 500ms;
 }
 nav a.active {
   background-color: rgba(255,255,255,1);
